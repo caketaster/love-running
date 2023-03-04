@@ -129,9 +129,19 @@ hr {
     margin: 5px;
 }
 
-left-about-heading {
+.left-about-heading {
     width: 60%;
     float: right;
+    line-height: 20px;
+
+    /* makes sure columns are aligned vertically*/
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
     line-height: 20px;
 
     /* makes sure columns are aligned vertically*/
@@ -153,7 +163,6 @@ left-about-heading {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 
 }
 
@@ -162,4 +171,12 @@ left-about-heading {
     margin: 0 auto;
     background-color: green;
 
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
